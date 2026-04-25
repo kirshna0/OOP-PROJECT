@@ -1,0 +1,3 @@
+best_kills=125
+best_health=100
+fewest_deaths=1

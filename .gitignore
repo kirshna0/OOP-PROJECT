@@ -1,0 +1,22 @@
+# Build directories
+build/
+CMakeFiles/
+*.o
+*.o.d
+
+# Executables
+BlackCloverGame
+
+# IDE files
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Game save files (optional, uncomment if you want to exclude)
+# asta_adventure_save.txt
+# asta_combat_log.txt
+# asta_highscore.txt
