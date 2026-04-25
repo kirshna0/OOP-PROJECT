@@ -18,3 +18,4 @@ Makefile
 # VS Code / IDE files
 .vscode/
 .idea/
+build/
