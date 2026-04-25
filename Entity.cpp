@@ -1,6 +1,6 @@
 #include "Entity.h"
 
-// FIX (SFML 3): Don't construct sprite here — texture is empty at this point.
+// Don't construct sprite here — texture is empty at this point.
 // Derived classes load their texture first, then call initSprite().
 Entity::Entity(std::string name, float x, float y, int hp, float spd)
     : position(x, y), health(hp), maxHealth(hp), speed(spd), name(name) {}
