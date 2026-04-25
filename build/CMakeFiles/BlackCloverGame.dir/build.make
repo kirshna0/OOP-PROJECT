@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT"
+CMAKE_SOURCE_DIR = /Users/kirshnashadwani/Documents/OOP-PROJECT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build"
+CMAKE_BINARY_DIR = /Users/kirshnashadwani/Documents/OOP-PROJECT/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BlackCloverGame.dir/depend.make
@@ -73,200 +73,200 @@ CMakeFiles/BlackCloverGame.dir/codegen:
 .PHONY : CMakeFiles/BlackCloverGame.dir/codegen
 
 CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.o: CMakeFiles/BlackCloverGame.dir/flags.make
-CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.o: /Users/kirshnashadwani/Documents/Black\ clover\ OOP\ PROJECT/AntiMagicSword.cpp
+CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.o: /Users/kirshnashadwani/Documents/OOP-PROJECT/AntiMagicSword.cpp
 CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.o: CMakeFiles/BlackCloverGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.o -MF CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.o -c "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/AntiMagicSword.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kirshnashadwani/Documents/OOP-PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.o -MF CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.o -c /Users/kirshnashadwani/Documents/OOP-PROJECT/AntiMagicSword.cpp
 
 CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/AntiMagicSword.cpp" > CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kirshnashadwani/Documents/OOP-PROJECT/AntiMagicSword.cpp > CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.i
 
 CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/AntiMagicSword.cpp" -o CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kirshnashadwani/Documents/OOP-PROJECT/AntiMagicSword.cpp -o CMakeFiles/BlackCloverGame.dir/AntiMagicSword.cpp.s
 
 CMakeFiles/BlackCloverGame.dir/Enemy.cpp.o: CMakeFiles/BlackCloverGame.dir/flags.make
-CMakeFiles/BlackCloverGame.dir/Enemy.cpp.o: /Users/kirshnashadwani/Documents/Black\ clover\ OOP\ PROJECT/Enemy.cpp
+CMakeFiles/BlackCloverGame.dir/Enemy.cpp.o: /Users/kirshnashadwani/Documents/OOP-PROJECT/Enemy.cpp
 CMakeFiles/BlackCloverGame.dir/Enemy.cpp.o: CMakeFiles/BlackCloverGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BlackCloverGame.dir/Enemy.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/Enemy.cpp.o -MF CMakeFiles/BlackCloverGame.dir/Enemy.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/Enemy.cpp.o -c "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Enemy.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kirshnashadwani/Documents/OOP-PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BlackCloverGame.dir/Enemy.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/Enemy.cpp.o -MF CMakeFiles/BlackCloverGame.dir/Enemy.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/Enemy.cpp.o -c /Users/kirshnashadwani/Documents/OOP-PROJECT/Enemy.cpp
 
 CMakeFiles/BlackCloverGame.dir/Enemy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackCloverGame.dir/Enemy.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Enemy.cpp" > CMakeFiles/BlackCloverGame.dir/Enemy.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kirshnashadwani/Documents/OOP-PROJECT/Enemy.cpp > CMakeFiles/BlackCloverGame.dir/Enemy.cpp.i
 
 CMakeFiles/BlackCloverGame.dir/Enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackCloverGame.dir/Enemy.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Enemy.cpp" -o CMakeFiles/BlackCloverGame.dir/Enemy.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kirshnashadwani/Documents/OOP-PROJECT/Enemy.cpp -o CMakeFiles/BlackCloverGame.dir/Enemy.cpp.s
 
 CMakeFiles/BlackCloverGame.dir/Entity.cpp.o: CMakeFiles/BlackCloverGame.dir/flags.make
-CMakeFiles/BlackCloverGame.dir/Entity.cpp.o: /Users/kirshnashadwani/Documents/Black\ clover\ OOP\ PROJECT/Entity.cpp
+CMakeFiles/BlackCloverGame.dir/Entity.cpp.o: /Users/kirshnashadwani/Documents/OOP-PROJECT/Entity.cpp
 CMakeFiles/BlackCloverGame.dir/Entity.cpp.o: CMakeFiles/BlackCloverGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BlackCloverGame.dir/Entity.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/Entity.cpp.o -MF CMakeFiles/BlackCloverGame.dir/Entity.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/Entity.cpp.o -c "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Entity.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kirshnashadwani/Documents/OOP-PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BlackCloverGame.dir/Entity.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/Entity.cpp.o -MF CMakeFiles/BlackCloverGame.dir/Entity.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/Entity.cpp.o -c /Users/kirshnashadwani/Documents/OOP-PROJECT/Entity.cpp
 
 CMakeFiles/BlackCloverGame.dir/Entity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackCloverGame.dir/Entity.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Entity.cpp" > CMakeFiles/BlackCloverGame.dir/Entity.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kirshnashadwani/Documents/OOP-PROJECT/Entity.cpp > CMakeFiles/BlackCloverGame.dir/Entity.cpp.i
 
 CMakeFiles/BlackCloverGame.dir/Entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackCloverGame.dir/Entity.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Entity.cpp" -o CMakeFiles/BlackCloverGame.dir/Entity.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kirshnashadwani/Documents/OOP-PROJECT/Entity.cpp -o CMakeFiles/BlackCloverGame.dir/Entity.cpp.s
 
 CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.o: CMakeFiles/BlackCloverGame.dir/flags.make
-CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.o: /Users/kirshnashadwani/Documents/Black\ clover\ OOP\ PROJECT/FireMagic.cpp
+CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.o: /Users/kirshnashadwani/Documents/OOP-PROJECT/FireMagic.cpp
 CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.o: CMakeFiles/BlackCloverGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.o -MF CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.o -c "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/FireMagic.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kirshnashadwani/Documents/OOP-PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.o -MF CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.o -c /Users/kirshnashadwani/Documents/OOP-PROJECT/FireMagic.cpp
 
 CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/FireMagic.cpp" > CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kirshnashadwani/Documents/OOP-PROJECT/FireMagic.cpp > CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.i
 
 CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/FireMagic.cpp" -o CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kirshnashadwani/Documents/OOP-PROJECT/FireMagic.cpp -o CMakeFiles/BlackCloverGame.dir/FireMagic.cpp.s
 
 CMakeFiles/BlackCloverGame.dir/Game.cpp.o: CMakeFiles/BlackCloverGame.dir/flags.make
-CMakeFiles/BlackCloverGame.dir/Game.cpp.o: /Users/kirshnashadwani/Documents/Black\ clover\ OOP\ PROJECT/Game.cpp
+CMakeFiles/BlackCloverGame.dir/Game.cpp.o: /Users/kirshnashadwani/Documents/OOP-PROJECT/Game.cpp
 CMakeFiles/BlackCloverGame.dir/Game.cpp.o: CMakeFiles/BlackCloverGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BlackCloverGame.dir/Game.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/Game.cpp.o -MF CMakeFiles/BlackCloverGame.dir/Game.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/Game.cpp.o -c "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Game.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kirshnashadwani/Documents/OOP-PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BlackCloverGame.dir/Game.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/Game.cpp.o -MF CMakeFiles/BlackCloverGame.dir/Game.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/Game.cpp.o -c /Users/kirshnashadwani/Documents/OOP-PROJECT/Game.cpp
 
 CMakeFiles/BlackCloverGame.dir/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackCloverGame.dir/Game.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Game.cpp" > CMakeFiles/BlackCloverGame.dir/Game.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kirshnashadwani/Documents/OOP-PROJECT/Game.cpp > CMakeFiles/BlackCloverGame.dir/Game.cpp.i
 
 CMakeFiles/BlackCloverGame.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackCloverGame.dir/Game.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Game.cpp" -o CMakeFiles/BlackCloverGame.dir/Game.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kirshnashadwani/Documents/OOP-PROJECT/Game.cpp -o CMakeFiles/BlackCloverGame.dir/Game.cpp.s
 
 CMakeFiles/BlackCloverGame.dir/Level.cpp.o: CMakeFiles/BlackCloverGame.dir/flags.make
-CMakeFiles/BlackCloverGame.dir/Level.cpp.o: /Users/kirshnashadwani/Documents/Black\ clover\ OOP\ PROJECT/Level.cpp
+CMakeFiles/BlackCloverGame.dir/Level.cpp.o: /Users/kirshnashadwani/Documents/OOP-PROJECT/Level.cpp
 CMakeFiles/BlackCloverGame.dir/Level.cpp.o: CMakeFiles/BlackCloverGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BlackCloverGame.dir/Level.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/Level.cpp.o -MF CMakeFiles/BlackCloverGame.dir/Level.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/Level.cpp.o -c "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Level.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kirshnashadwani/Documents/OOP-PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BlackCloverGame.dir/Level.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/Level.cpp.o -MF CMakeFiles/BlackCloverGame.dir/Level.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/Level.cpp.o -c /Users/kirshnashadwani/Documents/OOP-PROJECT/Level.cpp
 
 CMakeFiles/BlackCloverGame.dir/Level.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackCloverGame.dir/Level.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Level.cpp" > CMakeFiles/BlackCloverGame.dir/Level.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kirshnashadwani/Documents/OOP-PROJECT/Level.cpp > CMakeFiles/BlackCloverGame.dir/Level.cpp.i
 
 CMakeFiles/BlackCloverGame.dir/Level.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackCloverGame.dir/Level.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Level.cpp" -o CMakeFiles/BlackCloverGame.dir/Level.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kirshnashadwani/Documents/OOP-PROJECT/Level.cpp -o CMakeFiles/BlackCloverGame.dir/Level.cpp.s
 
 CMakeFiles/BlackCloverGame.dir/Level1.cpp.o: CMakeFiles/BlackCloverGame.dir/flags.make
-CMakeFiles/BlackCloverGame.dir/Level1.cpp.o: /Users/kirshnashadwani/Documents/Black\ clover\ OOP\ PROJECT/Level1.cpp
+CMakeFiles/BlackCloverGame.dir/Level1.cpp.o: /Users/kirshnashadwani/Documents/OOP-PROJECT/Level1.cpp
 CMakeFiles/BlackCloverGame.dir/Level1.cpp.o: CMakeFiles/BlackCloverGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BlackCloverGame.dir/Level1.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/Level1.cpp.o -MF CMakeFiles/BlackCloverGame.dir/Level1.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/Level1.cpp.o -c "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Level1.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kirshnashadwani/Documents/OOP-PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BlackCloverGame.dir/Level1.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/Level1.cpp.o -MF CMakeFiles/BlackCloverGame.dir/Level1.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/Level1.cpp.o -c /Users/kirshnashadwani/Documents/OOP-PROJECT/Level1.cpp
 
 CMakeFiles/BlackCloverGame.dir/Level1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackCloverGame.dir/Level1.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Level1.cpp" > CMakeFiles/BlackCloverGame.dir/Level1.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kirshnashadwani/Documents/OOP-PROJECT/Level1.cpp > CMakeFiles/BlackCloverGame.dir/Level1.cpp.i
 
 CMakeFiles/BlackCloverGame.dir/Level1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackCloverGame.dir/Level1.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Level1.cpp" -o CMakeFiles/BlackCloverGame.dir/Level1.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kirshnashadwani/Documents/OOP-PROJECT/Level1.cpp -o CMakeFiles/BlackCloverGame.dir/Level1.cpp.s
 
 CMakeFiles/BlackCloverGame.dir/Level2.cpp.o: CMakeFiles/BlackCloverGame.dir/flags.make
-CMakeFiles/BlackCloverGame.dir/Level2.cpp.o: /Users/kirshnashadwani/Documents/Black\ clover\ OOP\ PROJECT/Level2.cpp
+CMakeFiles/BlackCloverGame.dir/Level2.cpp.o: /Users/kirshnashadwani/Documents/OOP-PROJECT/Level2.cpp
 CMakeFiles/BlackCloverGame.dir/Level2.cpp.o: CMakeFiles/BlackCloverGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/BlackCloverGame.dir/Level2.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/Level2.cpp.o -MF CMakeFiles/BlackCloverGame.dir/Level2.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/Level2.cpp.o -c "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Level2.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kirshnashadwani/Documents/OOP-PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/BlackCloverGame.dir/Level2.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/Level2.cpp.o -MF CMakeFiles/BlackCloverGame.dir/Level2.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/Level2.cpp.o -c /Users/kirshnashadwani/Documents/OOP-PROJECT/Level2.cpp
 
 CMakeFiles/BlackCloverGame.dir/Level2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackCloverGame.dir/Level2.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Level2.cpp" > CMakeFiles/BlackCloverGame.dir/Level2.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kirshnashadwani/Documents/OOP-PROJECT/Level2.cpp > CMakeFiles/BlackCloverGame.dir/Level2.cpp.i
 
 CMakeFiles/BlackCloverGame.dir/Level2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackCloverGame.dir/Level2.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Level2.cpp" -o CMakeFiles/BlackCloverGame.dir/Level2.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kirshnashadwani/Documents/OOP-PROJECT/Level2.cpp -o CMakeFiles/BlackCloverGame.dir/Level2.cpp.s
 
 CMakeFiles/BlackCloverGame.dir/Level3.cpp.o: CMakeFiles/BlackCloverGame.dir/flags.make
-CMakeFiles/BlackCloverGame.dir/Level3.cpp.o: /Users/kirshnashadwani/Documents/Black\ clover\ OOP\ PROJECT/Level3.cpp
+CMakeFiles/BlackCloverGame.dir/Level3.cpp.o: /Users/kirshnashadwani/Documents/OOP-PROJECT/Level3.cpp
 CMakeFiles/BlackCloverGame.dir/Level3.cpp.o: CMakeFiles/BlackCloverGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/BlackCloverGame.dir/Level3.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/Level3.cpp.o -MF CMakeFiles/BlackCloverGame.dir/Level3.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/Level3.cpp.o -c "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Level3.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kirshnashadwani/Documents/OOP-PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/BlackCloverGame.dir/Level3.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/Level3.cpp.o -MF CMakeFiles/BlackCloverGame.dir/Level3.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/Level3.cpp.o -c /Users/kirshnashadwani/Documents/OOP-PROJECT/Level3.cpp
 
 CMakeFiles/BlackCloverGame.dir/Level3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackCloverGame.dir/Level3.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Level3.cpp" > CMakeFiles/BlackCloverGame.dir/Level3.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kirshnashadwani/Documents/OOP-PROJECT/Level3.cpp > CMakeFiles/BlackCloverGame.dir/Level3.cpp.i
 
 CMakeFiles/BlackCloverGame.dir/Level3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackCloverGame.dir/Level3.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Level3.cpp" -o CMakeFiles/BlackCloverGame.dir/Level3.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kirshnashadwani/Documents/OOP-PROJECT/Level3.cpp -o CMakeFiles/BlackCloverGame.dir/Level3.cpp.s
 
 CMakeFiles/BlackCloverGame.dir/Player.cpp.o: CMakeFiles/BlackCloverGame.dir/flags.make
-CMakeFiles/BlackCloverGame.dir/Player.cpp.o: /Users/kirshnashadwani/Documents/Black\ clover\ OOP\ PROJECT/Player.cpp
+CMakeFiles/BlackCloverGame.dir/Player.cpp.o: /Users/kirshnashadwani/Documents/OOP-PROJECT/Player.cpp
 CMakeFiles/BlackCloverGame.dir/Player.cpp.o: CMakeFiles/BlackCloverGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/BlackCloverGame.dir/Player.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/Player.cpp.o -MF CMakeFiles/BlackCloverGame.dir/Player.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/Player.cpp.o -c "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Player.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kirshnashadwani/Documents/OOP-PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/BlackCloverGame.dir/Player.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/Player.cpp.o -MF CMakeFiles/BlackCloverGame.dir/Player.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/Player.cpp.o -c /Users/kirshnashadwani/Documents/OOP-PROJECT/Player.cpp
 
 CMakeFiles/BlackCloverGame.dir/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackCloverGame.dir/Player.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Player.cpp" > CMakeFiles/BlackCloverGame.dir/Player.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kirshnashadwani/Documents/OOP-PROJECT/Player.cpp > CMakeFiles/BlackCloverGame.dir/Player.cpp.i
 
 CMakeFiles/BlackCloverGame.dir/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackCloverGame.dir/Player.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Player.cpp" -o CMakeFiles/BlackCloverGame.dir/Player.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kirshnashadwani/Documents/OOP-PROJECT/Player.cpp -o CMakeFiles/BlackCloverGame.dir/Player.cpp.s
 
 CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.o: CMakeFiles/BlackCloverGame.dir/flags.make
-CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.o: /Users/kirshnashadwani/Documents/Black\ clover\ OOP\ PROJECT/SaveManager.cpp
+CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.o: /Users/kirshnashadwani/Documents/OOP-PROJECT/SaveManager.cpp
 CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.o: CMakeFiles/BlackCloverGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.o -MF CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.o -c "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/SaveManager.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kirshnashadwani/Documents/OOP-PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.o -MF CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.o -c /Users/kirshnashadwani/Documents/OOP-PROJECT/SaveManager.cpp
 
 CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/SaveManager.cpp" > CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kirshnashadwani/Documents/OOP-PROJECT/SaveManager.cpp > CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.i
 
 CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/SaveManager.cpp" -o CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kirshnashadwani/Documents/OOP-PROJECT/SaveManager.cpp -o CMakeFiles/BlackCloverGame.dir/SaveManager.cpp.s
 
 CMakeFiles/BlackCloverGame.dir/Spell.cpp.o: CMakeFiles/BlackCloverGame.dir/flags.make
-CMakeFiles/BlackCloverGame.dir/Spell.cpp.o: /Users/kirshnashadwani/Documents/Black\ clover\ OOP\ PROJECT/Spell.cpp
+CMakeFiles/BlackCloverGame.dir/Spell.cpp.o: /Users/kirshnashadwani/Documents/OOP-PROJECT/Spell.cpp
 CMakeFiles/BlackCloverGame.dir/Spell.cpp.o: CMakeFiles/BlackCloverGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/BlackCloverGame.dir/Spell.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/Spell.cpp.o -MF CMakeFiles/BlackCloverGame.dir/Spell.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/Spell.cpp.o -c "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Spell.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kirshnashadwani/Documents/OOP-PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/BlackCloverGame.dir/Spell.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/Spell.cpp.o -MF CMakeFiles/BlackCloverGame.dir/Spell.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/Spell.cpp.o -c /Users/kirshnashadwani/Documents/OOP-PROJECT/Spell.cpp
 
 CMakeFiles/BlackCloverGame.dir/Spell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackCloverGame.dir/Spell.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Spell.cpp" > CMakeFiles/BlackCloverGame.dir/Spell.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kirshnashadwani/Documents/OOP-PROJECT/Spell.cpp > CMakeFiles/BlackCloverGame.dir/Spell.cpp.i
 
 CMakeFiles/BlackCloverGame.dir/Spell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackCloverGame.dir/Spell.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/Spell.cpp" -o CMakeFiles/BlackCloverGame.dir/Spell.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kirshnashadwani/Documents/OOP-PROJECT/Spell.cpp -o CMakeFiles/BlackCloverGame.dir/Spell.cpp.s
 
 CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.o: CMakeFiles/BlackCloverGame.dir/flags.make
-CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.o: /Users/kirshnashadwani/Documents/Black\ clover\ OOP\ PROJECT/WindMagic.cpp
+CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.o: /Users/kirshnashadwani/Documents/OOP-PROJECT/WindMagic.cpp
 CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.o: CMakeFiles/BlackCloverGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.o -MF CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.o -c "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/WindMagic.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kirshnashadwani/Documents/OOP-PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.o -MF CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.o -c /Users/kirshnashadwani/Documents/OOP-PROJECT/WindMagic.cpp
 
 CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/WindMagic.cpp" > CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kirshnashadwani/Documents/OOP-PROJECT/WindMagic.cpp > CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.i
 
 CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/WindMagic.cpp" -o CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kirshnashadwani/Documents/OOP-PROJECT/WindMagic.cpp -o CMakeFiles/BlackCloverGame.dir/WindMagic.cpp.s
 
 CMakeFiles/BlackCloverGame.dir/main.cpp.o: CMakeFiles/BlackCloverGame.dir/flags.make
-CMakeFiles/BlackCloverGame.dir/main.cpp.o: /Users/kirshnashadwani/Documents/Black\ clover\ OOP\ PROJECT/main.cpp
+CMakeFiles/BlackCloverGame.dir/main.cpp.o: /Users/kirshnashadwani/Documents/OOP-PROJECT/main.cpp
 CMakeFiles/BlackCloverGame.dir/main.cpp.o: CMakeFiles/BlackCloverGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/BlackCloverGame.dir/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/main.cpp.o -MF CMakeFiles/BlackCloverGame.dir/main.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/main.cpp.o -c "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kirshnashadwani/Documents/OOP-PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/BlackCloverGame.dir/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlackCloverGame.dir/main.cpp.o -MF CMakeFiles/BlackCloverGame.dir/main.cpp.o.d -o CMakeFiles/BlackCloverGame.dir/main.cpp.o -c /Users/kirshnashadwani/Documents/OOP-PROJECT/main.cpp
 
 CMakeFiles/BlackCloverGame.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BlackCloverGame.dir/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/main.cpp" > CMakeFiles/BlackCloverGame.dir/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kirshnashadwani/Documents/OOP-PROJECT/main.cpp > CMakeFiles/BlackCloverGame.dir/main.cpp.i
 
 CMakeFiles/BlackCloverGame.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BlackCloverGame.dir/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/main.cpp" -o CMakeFiles/BlackCloverGame.dir/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kirshnashadwani/Documents/OOP-PROJECT/main.cpp -o CMakeFiles/BlackCloverGame.dir/main.cpp.s
 
 # Object files for target BlackCloverGame
 BlackCloverGame_OBJECTS = \
@@ -308,10 +308,10 @@ BlackCloverGame: /opt/homebrew/lib/libsfml-window.3.0.2.dylib
 BlackCloverGame: /opt/homebrew/lib/libsfml-audio.3.0.2.dylib
 BlackCloverGame: /opt/homebrew/lib/libsfml-system.3.0.2.dylib
 BlackCloverGame: CMakeFiles/BlackCloverGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable BlackCloverGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kirshnashadwani/Documents/OOP-PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable BlackCloverGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BlackCloverGame.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying assets to build directory"
-	/opt/homebrew/bin/cmake -E copy_directory "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/assets" "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build/assets"
+	/opt/homebrew/bin/cmake -E copy_directory /Users/kirshnashadwani/Documents/OOP-PROJECT/assets /Users/kirshnashadwani/Documents/OOP-PROJECT/build/assets
 
 # Rule to build all files generated by this target.
 CMakeFiles/BlackCloverGame.dir/build: BlackCloverGame
@@ -322,6 +322,6 @@ CMakeFiles/BlackCloverGame.dir/clean:
 .PHONY : CMakeFiles/BlackCloverGame.dir/clean
 
 CMakeFiles/BlackCloverGame.dir/depend:
-	cd "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT" "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT" "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build" "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build" "/Users/kirshnashadwani/Documents/Black clover OOP PROJECT/build/CMakeFiles/BlackCloverGame.dir/DependInfo.cmake" "--color=$(COLOR)" BlackCloverGame
+	cd /Users/kirshnashadwani/Documents/OOP-PROJECT/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kirshnashadwani/Documents/OOP-PROJECT /Users/kirshnashadwani/Documents/OOP-PROJECT /Users/kirshnashadwani/Documents/OOP-PROJECT/build /Users/kirshnashadwani/Documents/OOP-PROJECT/build /Users/kirshnashadwani/Documents/OOP-PROJECT/build/CMakeFiles/BlackCloverGame.dir/DependInfo.cmake "--color=$(COLOR)" BlackCloverGame
 .PHONY : CMakeFiles/BlackCloverGame.dir/depend
 
